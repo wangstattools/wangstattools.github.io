@@ -1,0 +1,182 @@
+#utable {
+    
+    background-color: #e6e6e6;
+    width: 75%;
+    margin-left: 40px;
+}
+
+
+input {
+    text-align: right;
+    display: block !important; 
+    padding: 0 !important; 
+    margin: 0 !important; 
+    border: 0 !important; 
+    width: 98% !important; 
+    border-radius: 0 !important; 
+    line-height: 1 !important;
+
+}
+td {
+    margin: 0 !important; 
+    padding: 0 !important;
+    border: 0;
+}
+tr {
+    margin: 0 !important; 
+    padding: 0 !important;
+    border: 0;
+}
+
+.box {
+    background-color: #e6e6e6;
+    width: 75%;
+    margin-left: 40px;
+    
+    padding: 3px;
+}
+
+hr { 
+    background-color: #1F5D15 !important;
+    color: #1F5D15 !important;
+    border: solid 2px #1F5D15 !important;
+    heigth: 1px !important;
+    width: 100% !important;   
+}
+
+.form-control {margin:0;
+    display: inline-block;
+}
+
+body {
+    width: 95%;
+    margin:0;
+    padding-top:50px;
+}
+
+.tab1 {
+    margin-left: 40px; 
+}
+
+tr.spacer {
+    border-bottom: 15px solid #e6e6e6;
+}
+
+#mastheadMini {
+    min-height:200px;
+    background-color:#A69760;
+    color:#aaaacc;
+}
+
+#masthead {
+    min-height:270px;
+    background-color:#1F5D15;
+    color:#aaaacc;
+}
+
+#masthead h1 {
+    font-size: 55px;
+    line-height: 1;
+}
+
+#masthead .well {
+    margin-top:13%;
+    background-color:#FFFFFF;
+    border-color:#1F5D15;
+}
+
+.icon-bar {
+    background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+    #masthead h1 {
+        font-size: 100px;
+    }
+}
+
+.navbar-bright {
+    background-color:#111155;
+    color:#fff;
+}
+  
+.navbar-bright a, #masthead a, #masthead .lead {
+    color:#aaaacc;
+}
+
+.navbar-bright li > a:hover {
+    background-color:#000033;
+}
+
+.affix-top,.affix{
+    position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+  
+  #sidebar.affix-bottom {
+    position: relative;
+  }
+
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+    border:0 #eee solid;
+    border-right-width:4px;
+}
+
+#sidebar li li.active {
+    border:0 #ccc solid;
+    border-right-width:3px;
+}
+
+#mainCol h2 {
+    padding-top: 55px;
+    margin-top: -55px;
+}
+
+.tab {
+	overflow:hidden;
+	border:1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	background-color; inherit;
+	float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
